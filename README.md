@@ -1,10 +1,9 @@
-[![CI/CD](https://github.com/zfennie/ids706_Fennie_miniproject2/actions/workflows/CI_CD.yml/badge.svg)](https://github.com/zfennie/ids706_Fennie_miniproject2/actions/workflows/CI_CD.yml) [![Install](https://github.com/zfennie/ids706_Fennie_miniproject2/actions/workflows/install.yml/badge.svg)](https://github.com/zfennie/ids706_Fennie_miniproject2/actions/workflows/install.yml) [![Format](https://github.com/zfennie/ids706_Fennie_miniproject2/actions/workflows/format.yml/badge.svg)](https://github.com/zfennie/ids706_Fennie_miniproject2/actions/workflows/format.yml) [![Lint](https://github.com/zfennie/ids706_Fennie_miniproject2/actions/workflows/lint.yml/badge.svg)](https://github.com/zfennie/ids706_Fennie_miniproject2/actions/workflows/lint.yml) [![Test](https://github.com/zfennie/ids706_Fennie_miniproject2/actions/workflows/test.yml/badge.svg)](https://github.com/zfennie/ids706_Fennie_miniproject2/actions/workflows/test.yml)
+[![CI/CD](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/CI_CD.yml/badge.svg)](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/CI_CD.yml) [![Install](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/install.yml/badge.svg)](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/install.yml) [![Format](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/format.yml/badge.svg)](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/format.yml) [![Lint](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/lint.yml/badge.svg)](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/lint.yml) [![Test](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/test.yml/badge.svg)](https://github.com/zfennie/Python-Scripting-for-SQL-Database/actions/workflows/test.yml)
 
 
 
-# IDS706_Fennie_Report
-## Fennie's Pandas Descriptive Statistics Report
-### Python script reads a dataset, generates descriptive statistics, and a visualization using Pandas
+# Fennie's Python Scripting for SQL Database
+## A Python script for an ETL pipeline to external data. The project will extract data from a url, make any necessary transformations, load the transformed data into a SQLite database, and perform CRUD queries to ananlyze and retrieve preliminary insights on the stored data.
 
 
 
@@ -20,8 +19,6 @@ Core Files are:
 - CI/CD pipeline
 - Makefile
 - README.md
-
-Private Video Link: https://youtu.be/Ikr3W7MdwT0
 
 ### Summary Statistics of the Russian Equipment Losses
 ![Alt Text](./summary_stats.png)
