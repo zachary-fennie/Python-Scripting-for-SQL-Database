@@ -8,5 +8,5 @@ nbval == 0.11.0
 
 # template specific packages
 polars == 1.7.1
-matplotlib == 3.9.2
+matplotlib == 3.9
 jupyter == 1.0.0
