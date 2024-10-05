@@ -4,13 +4,13 @@ TESTING LIBRARY
 
 # import required packages
 import matplotlib.pyplot as plt
-import polars as pl
+import pandas as pd
 import library.report as rep
 
 
 # Read and store data
 DATA_CSV = "russia_losses_equipment.csv"
-data_test = pl.read_csv(DATA_CSV)
+data_test = pd.read_csv(DATA_CSV)
 
 
 def test_data_read():
