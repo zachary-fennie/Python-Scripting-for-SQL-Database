@@ -15,9 +15,9 @@ def load(dataset="/workspaces/sqlite-lab/data/GroceryDB_IgFPro.csv"):
     # prints the full working directory and path
     print(os.getcwd())
     payload = csv.reader(open(dataset, newline=""), delimiter=",")
-    conn = sqlite3.connect("GroceryDB.db")
+    conn = sqlite3.connect("icu.db")
     c = conn.cursor()
-    c.execute("DROP TABLE IF EXISTS GroceryDB")
+    c.execute("DROP TABLE IF EXISTS icuDB")
     c.execute(
         "CREATE TABLE GroceryDB (id,general_name, count_products, ingred_FPro, avg_FPro_products, avg_distance_root, ingred_normalization_term, semantic_tree_name, semantic_tree_node)"
     )
