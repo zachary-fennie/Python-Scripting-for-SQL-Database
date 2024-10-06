@@ -27,4 +27,4 @@ URL: https://github.com/fivethirtyeight/data/blob/e6bbbb2d35310b5c63c2995a0d03d5
 ![output](https://github.com/user-attachments/assets/18565095-13cf-46be-b59b-174f677e9536)
 
 ### Jupyter Notebook for Preliminary Examination of Data
-[main_notebook.ipynb](https://github.com/zfennie/Python-Scripting-for-SQL-Database/blob/989acb7d003177e0bd28f9d42cad90ff8a8fb269/main_notebook.ipynb)
+[Notebook](https://github.com/zfennie/Python-Scripting-for-SQL-Database/blob/989acb7d003177e0bd28f9d42cad90ff8a8fb269/main_notebook.ipynb)
