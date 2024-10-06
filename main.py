@@ -2,7 +2,7 @@
 MAIN
 """
 
-import library as lib
+import library.report as lib
 
 if __name__ == "__main__":
     DATA_CSV = "russia_losses_equipment.csv"
