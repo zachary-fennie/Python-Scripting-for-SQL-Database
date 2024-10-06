@@ -14,6 +14,7 @@ def create():
     cursor.execute(
         "INSERT INTO icuDB (MMSA, total_percent_at_risk, high_risk_per_ICU_bed, high_risk_per_hospital, icu_beds, hospitals, total_at_risk) VALUES('Duham, NC','50%',1947,43787,360,14,667189)"
     )
+    conn.commit()
     conn.close()
     return "Create Success"
 
@@ -25,15 +26,18 @@ def read():
     # read execution
     print("Top 5 rows of the table:")
     cursor.execute("SELECT * FROM icuDB LIMIT 5;")
+    # Fetch the results
+    rows = cursor.fetchall()  # Fetch results here
+    print(rows)  # Print the fetched rows to see the output
     conn.close()
     return "Read Success"
 
 
 def query():
     """Query the database for the test case"""
-    print("Querying data...")
     conn = sqlite3.connect("icu.db")
     cursor = conn.cursor()
+    print("Querying data...")
     cursor.execute("SELECT * FROM icuDB WHERE MMSA = 'Duham, NC';")
     print(cursor.fetchall())
     conn.close()
@@ -46,6 +50,7 @@ def update():
     cursor = conn.cursor()
     # update execution
     cursor.execute("UPDATE icuDB SET MMSA = 'Durham, NC' WHERE MMSA = 'Duham, NC'")
+    conn.commit()
     conn.close()
     return "Update Success"
 
