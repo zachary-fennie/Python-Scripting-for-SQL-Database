@@ -11,7 +11,7 @@ def query():
     print("Querying data...")
     conn = sqlite3.connect("icu.db")
     cursor = conn.cursor()
-    cursor.execute("SELECT * FROM icuDB")
+    cursor.execute("SELECT * FROM icuDB LIMIT 5;")
     print("Top 5 rows of the table:")
     print(cursor.fetchall())
     conn.close()
