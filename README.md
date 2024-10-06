@@ -31,7 +31,6 @@ URL: (https://github.com/fivethirtyeight/data/blob/e6bbbb2d35310b5c63c2995a0d03d
 * CI/CD pipeline
 * `Makefile`
 * `README.md`
-* MIT License
 
 ### Summary Statistics of the ICU Dataset
 <img width="1056" alt="Screenshot 2024-10-05 at 6 34 57 PM" src="https://github.com/user-attachments/assets/536234ae-e5ff-47dd-b371-b420a96807c0">
