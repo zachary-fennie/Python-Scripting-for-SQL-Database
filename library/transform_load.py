@@ -9,20 +9,20 @@ import os
 
 
 # load the csv file and insert into a new sqlite3 database
-def load(dataset="/workspaces/sqlite-lab/data/GroceryDB_IgFPro.csv"):
-    """ "Transforms and Loads data into the local SQLite3 database"""
-
+def load(dataset="covid-geography/mmsa-icu-beds.csv"):
+    """Transforms and Loads data into the local SQLite3 database"""
+    print("Transforming and loading data...")
     # prints the full working directory and path
     print(os.getcwd())
-    payload = csv.reader(open(dataset, newline=""), delimiter=",")
+    payload = csv.reader(open(dataset, encoding="utf-8", newline=""), delimiter=",")
     conn = sqlite3.connect("icu.db")
     c = conn.cursor()
     c.execute("DROP TABLE IF EXISTS icuDB")
     c.execute(
-        "CREATE TABLE GroceryDB (id,general_name, count_products, ingred_FPro, avg_FPro_products, avg_distance_root, ingred_normalization_term, semantic_tree_name, semantic_tree_node)"
+        "CREATE TABLE icuDB (MMSA, total_percent_at_risk, high_risk_per_ICU_bed, high_risk_per_hospital, icu_beds, hospitals, total_at_risk)"
     )
-    # insert
-    c.executemany("INSERT INTO GroceryDB VALUES (?,?, ?, ?, ?, ?, ?, ?, ?)", payload)
+    # insert data into database
+    c.executemany("INSERT INTO icuDB VALUES (?, ?, ?, ?, ?, ?, ?)", payload)
     conn.commit()
     conn.close()
-    return "GroceryDB.db"
+    return "icuDB.db"
