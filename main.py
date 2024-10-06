@@ -12,7 +12,7 @@ def main_results():
     results = {
         "extract": extract(),
         "transform": load(),
-        "full_crudquery": full_crudquery,
+        "full_crudquery": full_crudquery(),
     }
     return results
 

@@ -10,6 +10,7 @@ def test_func():
     test_dict = main_results()
     assert test_dict["extract"] == "covid-geography/mmsa-icu-beds.csv"
     assert test_dict["transform"] == "icuDB.db"
+    print(test_dict["full_crudquery"])  # Specifically print the list of messages
     assert test_dict["full_crudquery"] == [
         "Create Success",
         "Read Success",

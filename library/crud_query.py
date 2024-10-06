@@ -62,19 +62,14 @@ def delete():
 
 def full_crudquery():
     """Run all functions of crud_query.py"""
-    create_result = create()
-    read_result = read()
-    update_result = update()
-    query_result = query()
-    delete_result = delete()
 
     # return a dictionary for testing
     return {
         "full_crudquery": [
-            create_result,
-            read_result,
-            query_result,
-            update_result,
-            delete_result,
+            create(),
+            read(),
+            query(),
+            update(),
+            delete(),
         ]
     }
