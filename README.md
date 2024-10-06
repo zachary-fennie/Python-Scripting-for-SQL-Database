@@ -20,8 +20,8 @@ URL: https://github.com/fivethirtyeight/data/blob/e6bbbb2d35310b5c63c2995a0d03d5
 * Makefile
 * README.md
 
-### Summary Statistics of the Russian Equipment Losses
-![Alt Text](./summary_stats.png)
+### Summary Statistics of the ICU Dataset
+<img width="1056" alt="Screenshot 2024-10-05 at 6 34 57 PM" src="https://github.com/user-attachments/assets/536234ae-e5ff-47dd-b371-b420a96807c0">
 
-### Data Visualization of the Russian Equipment Losses
-![Alt Text](./main_ground_losses.png)
+### Data Visualization of High Risk Persons per ICU beds & Hopitals
+![output](https://github.com/user-attachments/assets/18565095-13cf-46be-b59b-174f677e9536)
