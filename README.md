@@ -10,7 +10,7 @@
 ![diagram-export-10-6-2024-3_36_53-PM](https://github.com/user-attachments/assets/e476f6c1-42a3-41d0-b667-1885c59c4cd1)
 
 ## Structure
-The `library` directory contains `extract.py` to extract raw data from an online url source, `transform_load.py` to transform and load the original raw data from a .csv to a .db SQLite database, and `crud_query.py` to perform CRUD and query basic SQL operations.
+The `library` directory contains `extract.py` to extract raw data from an online url source, `transform_load.py` to transform and load the original raw data from a `.csv` to a `.db` SQLite database, and `crud_query.py` to perform CRUD and query basic SQL operations.
 
 ### Core Files of the Repo:
 * Jupyter notebook
