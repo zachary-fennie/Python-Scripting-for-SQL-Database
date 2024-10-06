@@ -10,12 +10,11 @@
 ![diagram-export-10-6-2024-3_36_53-PM](https://github.com/user-attachments/assets/e476f6c1-42a3-41d0-b667-1885c59c4cd1)
 
 ## Structure
-Structure
-
 The `library` directory contains `extract.py` to extract raw data from an online url source, `transform_load.py` to transform and load the original raw data from a .csv to a .db SQLite database, and `crud_query.py` to perform CRUD and query basic SQL operations.
 
 
 
+## Data
 ### FiveThirtyEight's MMS ICU Beds Dataset
 This dataset combines data from the Centers for Disease Control and Prevention's Behavioral Risk Factor Surveillance System (BRFSS) and the Kaiser Family Foundation to illustrate the number of people who were at high risk for hospitalization from the novel coronavirus COVID-19 in 2020.\
 URL: (https://github.com/fivethirtyeight/data/blob/e6bbbb2d35310b5c63c2995a0d03d582d0c7b2e6/covid-geography/mmsa-icu-beds.csv)
