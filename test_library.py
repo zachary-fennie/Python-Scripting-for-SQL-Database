@@ -9,7 +9,7 @@ import library.report as rep
 
 
 # Read and store data
-DATA_CSV = "russia_losses_equipment.csv"
+DATA_CSV = "https://github.com/fivethirtyeight/data/blob/e6bbbb2d35310b5c63c2995a0d03d582d0c7b2e6/covid-geography/mmsa-icu-beds.csv"
 data_test = pd.read_csv(DATA_CSV)
 
 
