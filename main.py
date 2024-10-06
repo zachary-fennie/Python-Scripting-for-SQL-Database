@@ -4,12 +4,16 @@ MAIN
 
 from library.extract import extract
 from library.transform_load import load
-from library.query import query
+from library.crud_query import full_crudquery
 
 
 def main_results():
     """Results function for testing main"""
-    results = {"extract": extract(), "transform": load(), "query": query()}
+    results = {
+        "extract": extract(),
+        "transform": load(),
+        "full_crudquery": full_crudquery,
+    }
     return results
 
 
@@ -22,7 +26,7 @@ def main():
     load()
 
     # query
-    query()
+    full_crudquery()
 
     # call results function for testing
     main_results()
